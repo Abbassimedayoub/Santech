@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import MainComponent from "./components/MainComponent";
-import { PrivateRoute } from "./utils/PrivateRoute";
 import HomeComponent from "./pages/HomeComponent";
 import CompanyComponent from "./pages/CompanyComponent";
 import LogoutComponent from "./pages/LogoutComponent";
