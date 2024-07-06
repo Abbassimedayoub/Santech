@@ -20,6 +20,8 @@ class CustomerRequestComponent extends React.Component {
     dataLoaded: false,  // Indique si les données initiales sont chargées.
   };
 
+  
+
   // Gestionnaire d'événements pour la soumission du formulaire.
   async formSubmit(event) {
     event.preventDefault();  // Empêche le comportement par défaut de la soumission du formulaire.
