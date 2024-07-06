@@ -11,6 +11,8 @@ class CompanyAddBankComponent extends React.Component {
   state = {
     errorRes: false,
     errorMessage: "",
+
+    
     btnMessage: 0,
     sendData: false,
   };
