@@ -10,6 +10,8 @@ class MedicineManageComponent extends React.Component {
   }
   state = {
     // State variables to manage component data and UI status.
+
+    
     errorRes: false,
     errorMessage: "",
     btnMessage: 0,
