@@ -4,7 +4,7 @@ const { default: AuthHandler } = require("./AuthHandler");
 const { default: Axios } = require("axios");
 const { default: Config } = require("./Config");
 
-class APIHandler {
+class APIHandler   {
   async checkLogin() {
     if (AuthHandler.checkTokenExpiry()) {
       try {
