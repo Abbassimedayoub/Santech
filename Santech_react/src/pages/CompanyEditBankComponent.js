@@ -10,6 +10,8 @@ class CompanyEditBankComponent extends React.Component {
     this.formSubmit = this.formSubmit.bind(this);  // Lie la méthode formSubmit pour assurer le contexte 'this'.
   }
 
+
+  
   // Initialisation de l'état avec des valeurs par défaut.
   state = {
     errorRes: false,  // Indique s'il y a une réponse d'erreur de l'API.
