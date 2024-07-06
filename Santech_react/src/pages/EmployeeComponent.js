@@ -24,6 +24,7 @@ class EmployeeComponent extends React.Component {
 
     var apiHandler = new APIHandler();
     // Appelle l'API pour sauvegarder les données de l'employé en utilisant l'APIHandler.
+    
     var response = await apiHandler.saveEmployeeData(
       event.target.name.value,
       event.target.joining_date.value,
