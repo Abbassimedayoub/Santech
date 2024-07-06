@@ -3,7 +3,7 @@ import Config from "./Config";
 import { reactLocalStorage } from "reactjs-localstorage";
 
 class AuthHandler {
-  // Méthode pour la connexion des utilisateurs
+  //  Méthode pour la connexion des utilisateurs
   static login(username, password, callback) {
     // Envoi des identifiants au serveur pour vérifier la connexion
     axios
