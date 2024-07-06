@@ -25,6 +25,7 @@ class HomeComponent extends React.Component {
     sell_amt_today: 0,
     medicine_expire_serializer_data: 0,
     dataPoints: [],
+    
     profitChartOption: {},
     sellChartOption: {},
   };
