@@ -17,6 +17,8 @@ class CompanyComponent extends React.Component {
     dataLoaded: false, // Indique si les données ont été chargées
   };
 
+  
+
   // Gère la soumission du formulaire pour créer ou mettre à jour les données d'une entreprise
   async formSubmit(event) {
     event.preventDefault();
