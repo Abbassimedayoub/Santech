@@ -4,7 +4,7 @@ from django.db import models
 
 
 class Company(models.Model):
-    # Modèle pour stocker les informations des entreprises
+    # Modèle pour stocker les informations entreprises
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=255)
     license_no = models.CharField(max_length=255)
