@@ -15,6 +15,7 @@ class CompanyDetailsComponent extends React.Component {
     sendData: false,
     companyBank: [], // Stores bank details
     name: "",
+    
     license_no: "",
     address: "",
     contact_no: "",
