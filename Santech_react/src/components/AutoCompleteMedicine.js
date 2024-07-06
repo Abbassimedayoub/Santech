@@ -13,6 +13,7 @@ class AutoCompleteMedicine extends React.Component {
     this.loadDataMedicine = this.loadDataMedicine.bind(this);  // Liaison de loadDataMedicine pour assurer le contexte 'this'.
     this.inputData = React.createRef();  // Référence pour accéder à l'élément DOM de l'input.
   }
+  
 
   // Gestionnaire d'événements pour définir l'état de focus à vrai.
   onFocusChange = () => {
