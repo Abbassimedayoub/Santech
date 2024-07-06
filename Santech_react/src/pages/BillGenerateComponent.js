@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import AutoCompleteMedicine from "../components/AutoCompleteMedicine";
 
 
+
+
 // Ce composant est utilisé pour générer des factures pour les clients.
 class BillGenerateComponent extends React.Component {
   constructor(props) {

@@ -21,6 +21,8 @@ import BillGenerateComponent from "./pages/BillGenerateComponent";
 import CustomerRequestComponent from "./pages/CustomerRequestComponent";
 
 // Initialisation de l'application avec Router et configuration des routes
+
+
 ReactDOM.render(
   <Router>
     <Switch>

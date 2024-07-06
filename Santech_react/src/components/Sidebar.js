@@ -20,11 +20,13 @@ class Sidebar extends React.Component {
     document.addEventListener("mousedown", this.handleMouseClick, false);
   }
 
+  
+
   // Supprime l'écouteur d'événement avant que le composant ne soit démonté pour éviter des fuites de mémoire.
   componentWillUnmount() {
     document.removeEventListener("mousedown", this.handleMouseClick, false);
 
-    
+
   }
 
   // Gère les clics à l'extérieur des références pour fermer le menu déroulant.
