@@ -3,6 +3,8 @@ import { Route, Redirect } from "react-router-dom";
 import AuthHandler from "./AuthHandler"; // Importation du gestionnaire d'authentification
 import MainComponent from "../components/MainComponent"; // Importation du composant principal qui sera rendu
 
+
+
 /**
  * Ce composant fonctionnel crée une route privée qui nécessite une authentification.
  * Il redirige les utilisateurs non authentifiés vers la page de connexion.
