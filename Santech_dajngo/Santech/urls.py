@@ -1,19 +1,3 @@
-"""Configuration des URLs pour Santech
-
-La liste `urlpatterns` dirige les URLs vers les vues. Pour plus d'informations, veuillez consulter :
-    https://docs.djangoproject.com/en/3.0/topics/http/urls/
-Exemples :
-Vues fonctionnelles
-    1. Ajoutez un import : from my_app import views
-    2. Ajoutez une URL à urlpatterns : path('', views.home, name='home')
-Vues basées sur les classes
-    1. Ajoutez un import : from other_app.views import Home
-    2. Ajoutez une URL à urlpatterns : path('', Home.as_view(), name='home')
-Inclusion d'une autre configuration URL
-    1. Importez la fonction include() : from django.urls import include, path
-    2. Ajoutez une URL à urlpatterns : path('blog/', include('blog.urls'))
-"""
-
 # Importation des bibliothèques et fonctions nécessaires
 import os
 from django.conf.urls.static import static
