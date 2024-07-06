@@ -1,6 +1,7 @@
 var React = require('react');
 var CanvasJS = require('./canvasjs.min');
-CanvasJS = CanvasJS.Chart ? CanvasJS : window.CanvasJS; // Assurez-vous que CanvasJS est correctement chargé
+CanvasJS = CanvasJS.Chart ? CanvasJS : window.CanvasJS;
+ // Assurez-vous que CanvasJS est correctement chargé
 
 class CanvasJSChart extends React.Component {
 	static _cjsContainerId = 0  // Compteur statique pour les identifiants uniques des conteneurs de graphiques
@@ -13,6 +14,8 @@ class CanvasJSChart extends React.Component {
 		this.chartContainerId = "canvasjs-react-chart-container-" + CanvasJSChart._cjsContainerId++; // Création d'un ID unique pour le conteneur du graphique
 	}	
 	componentDidMount() {
+
+
 		// Crée le graphique et le rend à l'écran dès que le composant est monté
 		this.chart = new CanvasJS.Chart(this.chartContainerId, this.options);
 		this.chart.render();
