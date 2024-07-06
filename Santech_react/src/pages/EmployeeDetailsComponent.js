@@ -23,6 +23,7 @@ class EmployeeDetailsComponent extends React.Component {
     sendDataSalary: false,
     sendDataBank: false,
     employeeList: [],
+    
     dataLoaded: false,
     address: "",
     name: "",
