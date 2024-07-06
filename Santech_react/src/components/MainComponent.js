@@ -23,6 +23,7 @@ class MainComponent extends React.Component {
     }
   };
 
+  
   // Met à jour la largeur de l'écran dans l'état lors du redimensionnement de la fenêtre.
   onscreenresize = () => {
     console.log(window.screen.width);
