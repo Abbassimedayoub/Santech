@@ -7,6 +7,7 @@ class CompanyAccountComponent extends React.Component {
     super(props);
     this.formSubmit = this.formSubmit.bind(this);
   }
+  
   state = {
     errorRes: false,
     errorMessage: "",
