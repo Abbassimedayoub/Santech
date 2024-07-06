@@ -8,4 +8,6 @@ class LogoutComponent extends React.Component {
     return <Redirect to="/" />;
   }
 }
+
+
 export default LogoutComponent;
