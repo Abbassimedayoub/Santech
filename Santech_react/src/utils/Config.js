@@ -1,32 +1,5 @@
 class Config {
-  //BASE_URL = "https://medicalstoreapi.herokuapp.com/";
-  //FOR LIVE URL
-  // static loginUrl = "https://medicalstoreapi.herokuapp.com/api/gettoken/";
-  // static refreshApiUrl =
-  //   "https://medicalstoreapi.herokuapp.com/api/resfresh_token/";
-  // static companyApiUrl = "https://medicalstoreapi.herokuapp.com/api/company/";
-  // static homeApiUrl = "https://medicalstoreapi.herokuapp.com/api/home_api/";
-  // static customerRequestApiUrl =
-  //   "https://medicalstoreapi.herokuapp.com/api/customer_request/";
-  // static medicineNameApiUrl =
-  //   "https://medicalstoreapi.herokuapp.com/api/medicinebyname/";
-  // static companyBankApiUrl =
-  //   "https://medicalstoreapi.herokuapp.com/api/companybank/";
-  // static generateBillApiUrl =
-  //   "https://medicalstoreapi.herokuapp.com/api/generate_bill_api/";
-  // static companyAccountApiUrl =
-  //   "https://medicalstoreapi.herokuapp.com/api/companyaccount/";
-  // static companyOnly = "https://medicalstoreapi.herokuapp.com/api/companyonly/";
-  // static employeeApiURL = "https://medicalstoreapi.herokuapp.com/api/employee/";
-  // static medicineApiUrl = "https://medicalstoreapi.herokuapp.com/api/medicine/";
-  // static employeeBankApiUrl =
-  //   "https://medicalstoreapi.herokuapp.com/api/employee_all_bank/";
-  // static employeeBankApiUrlBYID =
-  //   "https://medicalstoreapi.herokuapp.com/api/employee_bankby_id/";
-  // static employeeSalaryApiUrl =
-  //   "https://medicalstoreapi.herokuapp.com/api/employee_all_salary/";
-  // static employeeSalaryByIdApiUrl =
-  //   "https://medicalstoreapi.herokuapp.com/api/employee_salaryby_id/";
+
 
   //FOR TEST URL
   static loginUrl = "http://127.0.0.1:8000/api/gettoken/";
