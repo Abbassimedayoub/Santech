@@ -21,6 +21,7 @@ class PageLoader extends React.Component {
                 <div className="circle"></div>
               </div>
             </div>
+            
           </div>
           {/* Message affiché pour indiquer à l'utilisateur d'attendre pendant le chargement */}
           <p>Please wait...</p>
