@@ -11,6 +11,8 @@ class CompanySerliazer(serializers.ModelSerializer):
         # Inclut tous les champs du modèle dans le sérialiseur.
         fields = "__all__"
 
+        
+
 
 class CompanyBankSerializer(serializers.ModelSerializer):
     class Meta:
