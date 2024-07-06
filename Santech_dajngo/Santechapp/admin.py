@@ -19,7 +19,7 @@ admin.site.register(Employee)
 admin.site.register(Customer)
 # Enregistre le modèle Bill pour le rendre accessible dans l'admin.
 admin.site.register(Bill)
-# Enregistre le modèle EmployeeSalary pour le rendre accessible dans l'admin.
+# Enregistre le modèle EmployeeSalary pour le rendre accessible dans l'admin
 admin.site.register(EmployeeSalary)
 # Enregistre le modèle BillDetails pour le rendre accessible dans l'admin.
 admin.site.register(BillDetails)
