@@ -13,6 +13,8 @@ from Santechapp.serializers import CompanySerliazer, CompanyBankSerializer, Medi
     EmployeeBankSerializer, EmployeeSalarySerializer, CustomerSerializer, BillSerializer, BillDetailsSerializer, \
     CustomerRequestSerializer
 
+
+
 # Classe ViewSet pour les entreprises
 
 
