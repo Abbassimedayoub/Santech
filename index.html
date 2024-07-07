@@ -1,1 +1,198 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Santech - Revolutionizing Medical Store Management</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: #f4f4f4; 
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: #0056b3; 
+            color: white; 
+            padding: 20px; 
+            text-align: center;
+            position: fixed;
+            width: 100%; 
+            z-index: 1000;
+        }
+        footer {
+            position: relative;
+            bottom: 0;
+            clear: both;
+            font-size: 14px;
+        }
+        nav { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+        }
+        nav a {
+            color: white; 
+            text-decoration: none; 
+            padding: 12px 20px; 
+            font-size: 18px; 
+            transition: background-color 0.3s; 
+        }
+        nav a:hover { 
+            background-color: #003366; 
+        }
+        .cover {
+    background: url('https://private-user-images.githubusercontent.com/134635340/346297015-0f1c8185-df55-493c-a4d6-bf59e2de9321.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAzMTAyMjgsIm5iZiI6MTcyMDMwOTkyOCwicGF0aCI6Ii8xMzQ2MzUzNDAvMzQ2Mjk3MDE1LTBmMWM4MTg1LWRmNTUtNDkzYy1hNGQ2LWJmNTllMmRlOTMyMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwNlQyMzUyMDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNjhkYTRhZGY2Y2E3Y2MzMGI5N2MzOGQzZWZjYzY2Yzg5ZTg2YjcwMTMxMWQwOTg1NDcwZGJjNWIyZjA5MTMzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Cl9s8IqAq-z_xYyOq1Wvfe1RnKK0d0v8pFCgFC9fRuQ') no-repeat center center/cover;
+    background-size: cover; /* Ensure the image covers the entire area */
+    height: 100vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    color: white;
+    position: relative;
+    top: 50px; 
+        }
+        .intro-content { 
+            background-color: rgba(0, 77, 153, 0.9); 
+            padding: 40px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            max-width: 600px;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            width: 100%;
+            clear: both; /* Clear fix for any floated elements */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* This centers the features horizontally */
+        }
+        .features-title {
+            width: 100%; /* Ensures the title spans the full width */
+            text-align: center; /* Centers the title */
+            color: #0056b3; /* Keeps color scheme consistent */
+            font-size: 28px; /* Larger font size for emphasis */
+            margin-bottom: 30px; /* Adds space between title and feature cards */
+        }
+        .feature {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+        .feature img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .about {
+            background: white;
+            padding: 40px;
+            margin: 50px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            max-width: 800px;
+            text-align: center;
+        }
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .btn {
+            background-color: #ff5722; 
+            color: white; 
+            border: none; 
+            padding: 12px 25px; 
+            font-size: 18px; 
+            cursor: pointer; 
+            border-radius: 5px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            background-color: #e64a19;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #0056b3;
+            font-size: 24px;
+        }
+        .social-icons a:hover {
+            color: #003366;
+        }
+    </style> 
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="cover" id="home">
+        <div class="intro-content">
+            <h1 class="intro-title">Santech</h1>
+            <p class="intro-text">Pioneering the future of medical store operations with seamless, integrated technology solutions that enhance efficiency and patient care.</p>
+            <a href="link-to-deployed-app" class="btn">Explore Santech Now</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="company management.png" alt="Company Management Logo">
+            <h3>Company Management</h3>
+            <p>Our Company Management module streamlines the complexities of handling multiple business relationships with pharmaceutical companies and suppliers. It allows users to store and manage extensive details such as contact information, payment terms, delivery schedules, and contract specifics. By centralizing this information, Santech makes it easier for users to access and update details, negotiate better terms based on historical performance data, and maintain compliance with contractual obligations. This leads to improved operational efficiency and enhanced partnerships.</p>
+        </div>
+        <div class="feature">
+            <img src="medecine.png" alt="Medicine Management Logo">
+            <h3>Medicine Management</h3>
+            <p>This feature tackles one of the core challenges in medical store operations: inventory management. Our advanced medicine management system not only tracks quantities and batch details but also integrates with supply chain operations to automatically adjust stock levels based on usage patterns and reorder triggers. It also includes alerts for expiring drugs, ensuring that no expired products are sold. Furthermore, it facilitates the quick retrieval of stock information, crucial during audits or inspections, thus promoting regulatory compliance and ensuring patient safety.</p>
+        </div>
+        <div class="feature">
+            <img src="cutumer request.png" alt="Customer Request Management Logo">
+            <h3>Customer Request Management</h3>
+            <p>The Customer Request Management system is designed to offer a robust interface for handling all customer interactions and requests. From initial inquiry to order fulfillment, this system tracks each step meticulously, ensuring that all customer demands are met with high standards of service. The system also provides detailed analytics on customer behavior, enabling targeted marketing and promotional efforts. Additionally, it supports a feedback mechanism to continuously improve service delivery and customer satisfaction, ultimately fostering customer loyalty and repeat business.</p>
+        </div>
+        <div class="feature">
+            <img src="bill.png" alt="Billing System Logo">
+            <h3>Billing System</h3>
+            <p>Our Billing System is tailored to facilitate smooth and accurate billing processes. It automatically generates invoices and bills based on customer transactions, integrating seamlessly with the inventory and order management systems to ensure that all charges are accurately captured. The system supports multiple payment methods and currencies, catering to a diverse clientele. It also includes features for issuing refunds or adjustments with full audit trails, ensuring transparency and accountability. Additionally, the system can generate financial reports that are essential for monitoring the financial health of the business, making it an invaluable tool for both daily operations and strategic planning.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About This Project</h2>
+        <p>My journey with Santech started from my days as an operating room nurse, where I encountered daily challenges in managing medical supplies. The inefficiencies in tracking medication expiration, maintaining inventory levels, and managing patient records were not just cumbersome but also prone to errors that could affect patient care. Inspired to make a difference, I envisioned a system that would streamline these processes, ensuring safety and efficiency.</p>
+        <p>Santech is more than just a capstone project for my first year at Holberton School; it's a personal mission to resolve the logistical hurdles that healthcare professionals face every day. Developed with the latest technologies in Django and React.js, this application is designed to handle the complexities of medical store management comprehensively. By integrating these systems, Santech helps medical facilities manage their operations more effectively, ensuring that healthcare providers can focus more on patient care than on administrative tasks.</p>
+        <p>This project not only showcases my skills in full-stack development but also reflects my commitment to improving healthcare through technology. Feel free to explore the project's progress and the technologies used by visiting the GitHub repository linked below.</p>
+        <div>
+            <a href="https://github.com/Abbassimedayoub/santech" class="button">GitHub Repository</a>
+            <a href="https://www.linkedin.com/in/mohamed-ayoub-abbassi/" class="button">LinkedIn Profile</a>
+        </div>
+        <p>As this journey continues, I am always open to collaborations and insights that can further enhance the functionality and reach of Santech. Your feedback and contributions are welcome!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ayoub Abbassi. All rights reserved. This is part of a portfolio project at Holberton School.</p>
+    </footer>
+</body>
+
+</html>
