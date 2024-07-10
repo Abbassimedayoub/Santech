@@ -1,6 +1,6 @@
 import React from "react";
 import Overlay from "./Overlay";
-import PageLoader from "./PageLoader"; // Assurez-vous que ce composant est utilisé ou retirez l'import si inutile.
+import PageLoader from "./PageLoader";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import GoogleFontLoader from "react-google-font-loader";

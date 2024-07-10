@@ -8,7 +8,7 @@
 **Santech** is the capstone project for my first year at Holberton School. This application is designed for medical store management, integrating functionalities for handling company interactions, medicine inventory, employee records, salary management, customer requests, and bill generation. Built using Django, React.js, and REST APIs, this project showcases full-stack development skills.
 
 ## Project Blog Article
-[Santech: A Journey Through Full-Stack Development](#link-to-your-blog-article)
+[Santech: A Journey Through Full-Stack Development](https://medium.com/@6708/santech-eb3b5d85276d)
 
 ## LinkedIn
 [Abbassi Mohamed Ayoub](https://www.linkedin.com/in/mohamed-ayoub-abbassi/)
